@@ -1,1 +1,2 @@
-plotly==5.22.0 
+plotly==5.22.0
+imbalanced-learn==0.12.3

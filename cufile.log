@@ -61,3 +61,120 @@
  12-06-2024 03:57:18:74 [pid=21968 tid=21968] ERROR  0:140 unable to load,  libnuma.so.1.0.0 
 
  12-06-2024 03:57:18:74 [pid=21968 tid=21968] ERROR  0:91 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 12-06-2024 04:17:37:94 [pid=25291 tid=25291] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 12-06-2024 04:17:37:95 [pid=25291 tid=25291] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 12-06-2024 04:17:37:95 [pid=25291 tid=25291] WARN   0:183 /dev/nvidia-fs0 open failed. error: No such file or directory
+ 12-06-2024 04:17:37:95 [pid=25291 tid=25291] NOTICE  cufio-drv:720 running in compatible mode
+ 12-06-2024 04:17:49:824 [pid=25291 tid=25291] ERROR  0:140 unable to load,  libnuma.so.1.0.0 
+
+ 12-06-2024 04:17:49:827 [pid=25291 tid=25291] ERROR  0:91 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 12-06-2024 08:37:42:148 [pid=68151 tid=68151] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 12-06-2024 08:37:42:148 [pid=68151 tid=68151] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 12-06-2024 08:37:42:148 [pid=68151 tid=68151] WARN   0:183 /dev/nvidia-fs0 open failed. error: No such file or directory
+ 12-06-2024 08:37:42:148 [pid=68151 tid=68151] NOTICE  cufio-drv:720 running in compatible mode
+ 12-06-2024 08:37:47:446 [pid=68151 tid=68151] ERROR  0:140 unable to load,  libnuma.so.1.0.0 
+
+ 12-06-2024 08:37:47:446 [pid=68151 tid=68151] ERROR  0:91 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 12-06-2024 08:50:29:483 [pid=75707 tid=75707] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 12-06-2024 08:50:29:483 [pid=75707 tid=75707] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 12-06-2024 08:50:29:483 [pid=75707 tid=75707] WARN   0:183 /dev/nvidia-fs0 open failed. error: No such file or directory
+ 12-06-2024 08:50:29:483 [pid=75707 tid=75707] NOTICE  cufio-drv:720 running in compatible mode
+ 12-06-2024 08:50:34:747 [pid=75707 tid=75707] ERROR  0:140 unable to load,  libnuma.so.1.0.0 
+
+ 12-06-2024 08:50:34:747 [pid=75707 tid=75707] ERROR  0:91 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 12-06-2024 08:55:06:482 [pid=78421 tid=78421] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 12-06-2024 08:55:06:482 [pid=78421 tid=78421] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 12-06-2024 08:55:06:482 [pid=78421 tid=78421] WARN   0:183 /dev/nvidia-fs0 open failed. error: No such file or directory
+ 12-06-2024 08:55:06:482 [pid=78421 tid=78421] NOTICE  cufio-drv:720 running in compatible mode
+ 12-06-2024 08:55:11:762 [pid=78421 tid=78421] ERROR  0:140 unable to load,  libnuma.so.1.0.0 
+
+ 12-06-2024 08:55:11:762 [pid=78421 tid=78421] ERROR  0:91 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 12-06-2024 09:00:17:0 [pid=81303 tid=81303] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 12-06-2024 09:00:17:0 [pid=81303 tid=81303] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 12-06-2024 09:00:17:0 [pid=81303 tid=81303] WARN   0:183 /dev/nvidia-fs0 open failed. error: No such file or directory
+ 12-06-2024 09:00:17:0 [pid=81303 tid=81303] NOTICE  cufio-drv:720 running in compatible mode
+ 12-06-2024 09:00:22:267 [pid=81303 tid=81303] ERROR  0:140 unable to load,  libnuma.so.1.0.0 
+
+ 12-06-2024 09:00:22:267 [pid=81303 tid=81303] ERROR  0:91 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 12-06-2024 09:03:53:203 [pid=83124 tid=83124] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 12-06-2024 09:03:53:203 [pid=83124 tid=83124] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 12-06-2024 09:03:53:203 [pid=83124 tid=83124] WARN   0:183 /dev/nvidia-fs0 open failed. error: No such file or directory
+ 12-06-2024 09:03:53:203 [pid=83124 tid=83124] NOTICE  cufio-drv:720 running in compatible mode
+ 12-06-2024 09:03:58:450 [pid=83124 tid=83124] ERROR  0:140 unable to load,  libnuma.so.1.0.0 
+
+ 12-06-2024 09:03:58:450 [pid=83124 tid=83124] ERROR  0:91 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 12-06-2024 09:08:21:40 [pid=85487 tid=85487] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 12-06-2024 09:08:21:41 [pid=85487 tid=85487] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 12-06-2024 09:08:21:41 [pid=85487 tid=85487] WARN   0:183 /dev/nvidia-fs0 open failed. error: No such file or directory
+ 12-06-2024 09:08:21:41 [pid=85487 tid=85487] NOTICE  cufio-drv:720 running in compatible mode
+ 12-06-2024 09:08:26:382 [pid=85487 tid=85487] ERROR  0:140 unable to load,  libnuma.so.1.0.0 
+
+ 12-06-2024 09:08:26:382 [pid=85487 tid=85487] ERROR  0:91 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 12-06-2024 09:09:03:690 [pid=86115 tid=86115] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 12-06-2024 09:09:03:691 [pid=86115 tid=86115] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 12-06-2024 09:09:03:691 [pid=86115 tid=86115] WARN   0:183 /dev/nvidia-fs0 open failed. error: No such file or directory
+ 12-06-2024 09:09:03:691 [pid=86115 tid=86115] NOTICE  cufio-drv:720 running in compatible mode
+ 12-06-2024 09:09:09:51 [pid=86115 tid=86115] ERROR  0:140 unable to load,  libnuma.so.1.0.0 
+
+ 12-06-2024 09:09:09:51 [pid=86115 tid=86115] ERROR  0:91 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 12-06-2024 09:18:19:922 [pid=91984 tid=91984] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 12-06-2024 09:18:19:925 [pid=91984 tid=91984] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 12-06-2024 09:18:19:925 [pid=91984 tid=91984] WARN   0:183 /dev/nvidia-fs0 open failed. error: No such file or directory
+ 12-06-2024 09:18:19:925 [pid=91984 tid=91984] NOTICE  cufio-drv:720 running in compatible mode
+ 12-06-2024 09:18:25:523 [pid=91984 tid=91984] ERROR  0:140 unable to load,  libnuma.so.1.0.0 
+
+ 12-06-2024 09:18:25:523 [pid=91984 tid=91984] ERROR  0:91 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 12-06-2024 09:19:46:823 [pid=93050 tid=93050] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 12-06-2024 09:19:46:823 [pid=93050 tid=93050] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 12-06-2024 09:19:46:823 [pid=93050 tid=93050] WARN   0:183 /dev/nvidia-fs0 open failed. error: No such file or directory
+ 12-06-2024 09:19:46:823 [pid=93050 tid=93050] NOTICE  cufio-drv:720 running in compatible mode
+ 12-06-2024 09:19:52:346 [pid=93050 tid=93050] ERROR  0:140 unable to load,  libnuma.so.1.0.0 
+
+ 12-06-2024 09:19:52:346 [pid=93050 tid=93050] ERROR  0:91 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 12-06-2024 09:20:45:407 [pid=93801 tid=93801] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 12-06-2024 09:20:45:407 [pid=93801 tid=93801] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 12-06-2024 09:20:45:407 [pid=93801 tid=93801] WARN   0:183 /dev/nvidia-fs0 open failed. error: No such file or directory
+ 12-06-2024 09:20:45:407 [pid=93801 tid=93801] NOTICE  cufio-drv:720 running in compatible mode
+ 12-06-2024 09:20:50:654 [pid=93801 tid=93801] ERROR  0:140 unable to load,  libnuma.so.1.0.0 
+
+ 12-06-2024 09:20:50:654 [pid=93801 tid=93801] ERROR  0:91 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 12-06-2024 09:23:32:885 [pid=95447 tid=95447] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 12-06-2024 09:23:32:887 [pid=95447 tid=95447] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 12-06-2024 09:23:32:887 [pid=95447 tid=95447] WARN   0:183 /dev/nvidia-fs0 open failed. error: No such file or directory
+ 12-06-2024 09:23:32:887 [pid=95447 tid=95447] NOTICE  cufio-drv:720 running in compatible mode
+ 12-06-2024 09:23:38:206 [pid=95447 tid=95447] ERROR  0:140 unable to load,  libnuma.so.1.0.0 
+
+ 12-06-2024 09:23:38:206 [pid=95447 tid=95447] ERROR  0:91 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory
+ 13-06-2024 12:05:44:396 [pid=528311 tid=528311] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 13-06-2024 12:05:44:396 [pid=528311 tid=528311] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 13-06-2024 12:05:44:396 [pid=528311 tid=528311] WARN   0:183 /dev/nvidia-fs0 open failed. error: No such file or directory
+ 13-06-2024 12:05:44:396 [pid=528311 tid=528311] NOTICE  cufio-drv:720 running in compatible mode
+ 13-06-2024 12:05:59:909 [pid=528311 tid=528311] ERROR  0:140 unable to load,  libnuma.so.1.0.0 
+
+ 13-06-2024 12:05:59:910 [pid=528311 tid=528311] ERROR  0:91 dlopen error libnuma.so.1.0.0: cannot open shared object file: No such file or directory

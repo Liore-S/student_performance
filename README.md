@@ -7,7 +7,7 @@ Jaya Jaya Institut merupakan salah satu institusi pendidikan tinggi yang telah b
 Jumlah dropout yang tinggi ini tentunya menjadi salah satu masalah besar bagi sebuah institusi pendidikan. Oleh karena itu, Jaya Jaya Institut ingin mendeteksi secepat mungkin siswa yang mungkin akan melakukan dropout sehingga dapat diberikan bimbingan khusus.
 
 ### Cakupan Proyek
-Membuat sebuah model machine learning yang dapat memprediksi siswa yang akan melakukan dropout, membuat sebuah business dashboard yang dapat memberikan insight kepada pihak institusi, dan melakukan analisis terhadap faktor-faktor yang mempengaruhi siswa melakukan dropout.
+Membuat sebuah aplikasi machine learning yang dapat memprediksi siswa yang akan melakukan dropout, membuat sebuah business dashboard yang dapat memberikan insight kepada pihak institusi, dan melakukan analisis terhadap faktor-faktor yang mempengaruhi siswa melakukan dropout. Data yang digunakan hanya data yang fokus pada faktor-faktor internal yang berada dibawah kendali langsung institusi pendidikan, daripada faktor eksternal seperti latar belakang orang tua.
 
 ### Persiapan
 
@@ -22,7 +22,7 @@ Software:
 Docker Container:
 - Metabase Container: <u>metabase/metabase:v0.49.6</u> **(Docker Hub)**
 - Rapids Notebook Container: <u>nvcr.io/nvidia/rapidsai/notebooks:24.04-cuda12.2-py3.11</u> **(Nvidia NGC)**
-- 
+
 ```bash
 docker run -d -p 4000:3000 --name metabase metabase/metabase:v0.49.6
 
