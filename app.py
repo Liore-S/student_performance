@@ -110,7 +110,7 @@ if uploaded_file is not None:
     ## status(label)
     df['Status'] = df['Status'].astype('category')
     # df = df[columns]
-    st.write(df.head())
+    # st.write(df.head())
     df.drop(columns=['Status'], inplace=True)
     df_ori = df.copy()
 
