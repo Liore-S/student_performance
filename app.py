@@ -3,11 +3,13 @@ import pandas as pd
 import pickle
 import xgboost as xgb
 from sklearn.preprocessing import OneHotEncoder
+import plotly.express as px
 
 st.set_page_config(
     page_title="Predicting Student Performance",
     page_icon="📚",
 )
+st.write("# Predicting Student Performance")
 
 # Load the model
 model = pickle.load(open('model/model.pkl', 'rb'))
@@ -129,6 +131,12 @@ if uploaded_file is not None:
     predictions = [reversed_mapping[prediction] for prediction in predictions]
     # add the prediction to the first col of dataframe
     df_ori.insert(0, 'Status', predictions)
+    # streamlit plotly pie chart for prediction
+    st.write("### Prediction Distribution")
+    fig = px.pie(df_ori, names='Status', hole=.3)
+    st.plotly_chart(fig)
+    
+    st.write("### Predictions")
     st.write(df_ori)
     
     # Download the predictions
@@ -139,3 +147,8 @@ if uploaded_file is not None:
         file_name='predictions.csv',
         mime='text/csv',
     )
+    
+
+    
+        
+
