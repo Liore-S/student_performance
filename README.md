@@ -42,23 +42,35 @@ Email: root@mail.com
 Password: root123
 ```
 ### Dashboard Preview
-![Dasbor Screenshot]()
+![Dasbor Screenshot](liore-s-dashboard.png)
 
 ### Penjelasan
 
 
-## Menjalankan Sistem Machine Learning
-Untuk menggunakan model prediksi *Dropout* mahasiswa, Anda dapat menjalankan kode berikut:
+## Machine Learning App
+Aplikasi ini dibuat menggunakan Streamlit. Aplikasi sudah dilakukan deployment di Streamlit Cloud berikut urlnya [Streamlit](https://student-analyzer.streamlit.app/) 
 
-```py
-python predict.py
+Untuk menjalan aplikasi ini secara lokal, jalankan perintah berikut:
+```bash
+streamlit run app.py
 ```
+### App Preview
+![App Screenshot](liore-s-MlApp.png)
 
 
 ## Conclusion
-Jelaskan konklusi dari proyek yang dikerjakan.
+Berdasarkan analisis yang dilakukan terdapat beberapa faktor yang dapat mengindikan kelulusan/dropout pelajar pada Jaya Jaya Insitut. Beberapa faktor tersebut antara lain:
+- Nilai
+  - Pelajar yang mendapatkan nilai rendah pada semester awal cenderung melakukan dropout. Ini bisa disebabkan oleh beberapa faktor seperti kurangnya pemahaman materi, kurangnya minat, atau faktor lainnya.
+- Umur
+  - Pelajar yang berumur lebih tua cenderung melakukan dropout. Hal ini bisa disebabkan oleh beberapa faktor seperti kesibukan, pekerjaan, atau faktor lainnya.
+- GDP, Inflation, Unemployment
+  - Faktor ekonomi juga mempengaruhi kelulusan/dropout pelajar. Pelajar yang berasal dari keluarga dengan kondisi ekonomi yang kurang baik cenderung melakukan dropout.
 
 ### Rekomendasi Action Items
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
-- action item 1
-- action item 2
+
+- Bimbingan
+  - Memberikan bimbingan khusus kepada pelajar yang mendapatkan nilai rendah pada semester awal. Bimbingan ini bisa berupa bimbingan akademik, bimbingan psikologi, atau bimbingan lainnya.
+  - Memberikan bimbingan khusus kepada pelajar yang berumur lebih tua. Bimbingan ini bisa berupa bimbingan akademik, bimbingan karir, atau bimbingan lainnya.
+- Beasiswa
+  - Memberikan beasiswa kepada pelajar yang berasal dari keluarga dengan kondisi ekonomi yang kurang baik. Beasiswa ini bisa berupa beasiswa penuh, beasiswa sebagian, atau beasiswa lainnya. Beasiswa ini bisa membantu pelajar untuk tetap melanjutkan pendidikannya. Selain itu, beasiswa ini juga bisa membantu pelajar untuk fokus pada pendidikannya tanpa harus bekerja. Hal ini juga terbukti dengan analisis yang menunjukkan bahwa pelajar dengan beasiswa cenderung menyelesaikan pendidikannya.
