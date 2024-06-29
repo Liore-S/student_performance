@@ -1,9 +1,8 @@
 import streamlit as st
 import pandas as pd
 import pickle
-# import xgboost as xgb
-# from sklearn.preprocessing import OneHotEncoder
-# import plotly.express as px
+import xgboost as xgb
+import plotly.express as px
 
 st.set_page_config(
     page_title="Predicting Student Performance",
