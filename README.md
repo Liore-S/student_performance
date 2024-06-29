@@ -4,7 +4,7 @@
 Jaya Jaya Institut merupakan salah satu institusi pendidikan tinggi yang telah berdiri sejak tahun 2000. Hingga saat ini, institusi ini telah mencetak banyak lulusan dengan reputasi yang sangat baik. Namun, terdapat banyak juga siswa yang tidak menyelesaikan pendidikannya alias dropout.
 
 ### Permasalahan Bisnis
-Jumlah dropout yang tinggi ini tentunya menjadi salah satu masalah besar bagi sebuah institusi pendidikan. Oleh karena itu, Jaya Jaya Institut ingin mendeteksi secepat mungkin siswa yang mungkin akan melakukan dropout sehingga dapat diberikan bimbingan khusus.
+Jumlah siswa yang tidak menyelesaikan pendidikan mereka atau dropout di Jaya Jaya Institut tergolong cukup tinggi, dan ini menjadi masalah besar bagi institusi pendidikan tinggi ini. Jumlah dropout yang tinggi dapat merusak reputasi Jaya Jaya Institut di mata calon siswa, orang tua, dan masyarakat umum. Reputasi yang baik sangat penting untuk menarik siswa baru dan mempertahankan kepercayaan publik. Tingginya dropout juga bisa menjadi indikasi bahwa ada masalah dalam sistem pendidikan atau dukungan yang diberikan kepada siswa. Hal ini perlu diatasi untuk memastikan kualitas pendidikan yang baik dan pengalaman belajar yang positif bagi semua siswa.
 
 ### Cakupan Proyek
 Membuat sebuah aplikasi machine learning yang dapat memprediksi siswa yang akan melakukan dropout, membuat sebuah business dashboard yang dapat memberikan insight kepada pihak institusi, dan melakukan analisis terhadap faktor-faktor yang mempengaruhi siswa melakukan dropout. Data yang digunakan hanya data yang fokus pada faktor-faktor internal yang berada dibawah kendali langsung institusi pendidikan, daripada faktor eksternal seperti latar belakang orang tua.
@@ -32,7 +32,11 @@ docker run -d --name rapids-vs --gpus '"device=7"' -v ~/student_performance:/hom
 
 Python Libraries:
 ```bash
-pip install -r requirements.txt
+# Notebook/Container Requirements
+pip install -r container_requirements.txt
+
+# Streamlit Dev Requirements
+pip install -r streamlit_requirements.txt
 ```
 
 ## Business Dashboard
@@ -61,16 +65,20 @@ streamlit run app.py
 ## Conclusion
 Berdasarkan analisis yang dilakukan terdapat beberapa faktor yang dapat mengindikan kelulusan/dropout pelajar pada Jaya Jaya Insitut. Beberapa faktor tersebut antara lain:
 - Nilai
-  - Pelajar yang mendapatkan nilai rendah pada semester awal cenderung melakukan dropout. Ini bisa disebabkan oleh beberapa faktor seperti kurangnya pemahaman materi, kurangnya minat, atau faktor lainnya.
+  - Siswa dengan nilai rendah pada semester awal cenderung lebih mungkin melakukan dropout. Secara spesifik, siswa dengan nilai rata-rata di bawah 8 pada semester satu dan 2 seringkali menunjukkan risiko tinggi untuk tidak menyelesaikan studi mereka. Nilai rendah ini dapat disebabkan oleh kurangnya pemahaman materi, kurangnya minat, atau masalah pribadi yang mengganggu proses belajar.
 - Umur
-  - Pelajar yang berumur lebih tua cenderung melakukan dropout. Hal ini bisa disebabkan oleh beberapa faktor seperti kesibukan, pekerjaan, atau faktor lainnya.
-- GDP, Inflation, Unemployment
-  - Faktor ekonomi juga mempengaruhi kelulusan/dropout pelajar. Pelajar yang berasal dari keluarga dengan kondisi ekonomi yang kurang baik cenderung melakukan dropout.
+  - Pelajar yang berumur lebih tua cenderung memiliki risiko dropout yang lebih tinggi. Biasanya, pelajar yang berusia di 25 tahun pada saat pendaftaran awal lebih mungkin menghadapi tantangan seperti kesibukan pekerjaan, tanggung jawab keluarga, atau kesulitan dalam menyesuaikan diri dengan lingkungan akademik yang baru.
+- Kondisi Ekonomi
+  - Kondisi ekonomi keluarga juga memainkan peran penting dalam kelulusan siswa. Analisis menunjukkan bahwa siswa yang berasal dari keluarga dengan kondisi ekonomi yang kurang baik cenderung lebih rentan terhadap dropout. Faktor-faktor seperti tingginya tingkat inflasi dan pengangguran juga mempengaruhi kemampuan keluarga dalam mendukung pendidikan anak mereka.
 
 ### Rekomendasi Action Items
 
 - Bimbingan
-  - Memberikan bimbingan khusus kepada pelajar yang mendapatkan nilai rendah pada semester awal. Bimbingan ini bisa berupa bimbingan akademik, bimbingan psikologi, atau bimbingan lainnya.
-  - Memberikan bimbingan khusus kepada pelajar yang berumur lebih tua. Bimbingan ini bisa berupa bimbingan akademik, bimbingan karir, atau bimbingan lainnya.
+  - Memberikan bimbingan khusus kepada pelajar yang mendapatkan nilai rata-rata dibawah 8 pada semester awal. Bimbingan ini bisa berupa bimbingan akademik, bimbingan psikologi, atau bimbingan lainnya.
+  - Memberikan bimbingan khusus kepada pelajar yang berumur 25 tahun keatas. Bimbingan ini bisa berupa bimbingan akademik, bimbingan karir, atau bimbingan lainnya.
+  > **Bimbingan Akademik**: Menyediakan sesi tambahan di luar jam kuliah reguler yang dipimpin oleh dosen atau tutor untuk membahas materi yang dianggap sulit. Sesi ini dapat dilakukan dalam bentuk kelas tambahan atau kelompok studi kecil.<br>
+  > **Bimbingan Psikologi**: Menyediakan layanan konseling atau terapi psikologi bagi pelajar yang mengalami masalah pribadi atau emosional yang mengganggu proses belajar mereka.<br>
+  > **Bimbingan Karir**:  Menyediakan informasi dan bimbingan mengenai karir dan peluang kerja bagi pelajar yang berusia lebih tua. Bimbingan ini dapat membantu pelajar untuk memahami peluang karir mereka setelah lulus dan memotivasi mereka untuk menyelesaikan pendidikan mereka.
+
 - Beasiswa
   - Memberikan beasiswa kepada pelajar yang berasal dari keluarga dengan kondisi ekonomi yang kurang baik. Beasiswa ini bisa berupa beasiswa penuh, beasiswa sebagian, atau beasiswa lainnya. Beasiswa ini bisa membantu pelajar untuk tetap melanjutkan pendidikannya. Selain itu, beasiswa ini juga bisa membantu pelajar untuk fokus pada pendidikannya tanpa harus bekerja. Hal ini juga terbukti dengan analisis yang menunjukkan bahwa pelajar dengan beasiswa cenderung menyelesaikan pendidikannya.
