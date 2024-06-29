@@ -36,7 +36,7 @@ Python Libraries:
 pip install -r container_requirements.txt
 
 # Streamlit Dev Requirements
-pip install -r streamlit_requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Business Dashboard
